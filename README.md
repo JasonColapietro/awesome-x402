@@ -157,6 +157,8 @@ Real companies using x402 in production with proven scale and transaction volume
 
 Major tech companies leveraging x402 in production include **Coinbase** (Native CDP integration, primary facilitator), **Cloudflare** (Edge payment processing infrastructure), **Google** (Agent-to-Agent A2A payment protocol development), **Visa** (Enterprise payment rail exploration), and **thirdweb** (AI agent transaction framework Nebula).
 
+- [Suede Agent Studio](https://agents.suedeai.ai) - Visual agent-flow builder publishing flows as pay-per-call x402 endpoints (USDC on Base mainnet). Catalog API at `/api/catalog`; per-agent discovery at `/.well-known/x402` and agent-cards at `/.well-known/agent-card`. ([GitHub](https://github.com/JasonColapietro))
+
 ## 🛠️ SDKs & Client Libraries
 
 Client libraries for making x402 payments.
