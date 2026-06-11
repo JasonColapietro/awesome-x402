@@ -16,7 +16,7 @@ function delay(ms) {
 // ===== MARKDOWN RENDERING =====
 async function fetchAndRenderReadme() {
     const readmeContainer = document.getElementById('readme-content');
-    const rawReadmeUrl = 'https://raw.githubusercontent.com/xpaysh/awesome-x402/main/README.md';
+    const rawReadmeUrl = 'https://raw.githubusercontent.com/JasonColapietro/awesome-x402/main/README.md';
     
     try {
         // Show loading state
@@ -81,7 +81,7 @@ async function fetchAndRenderReadme() {
                 <p style="color: #6b7280; margin-bottom: 2rem;">
                     We couldn't load the latest resources. Please visit the GitHub repository directly.
                 </p>
-                <a href="https://github.com/xpaysh/awesome-x402" 
+                <a href="https://github.com/JasonColapietro/awesome-x402" 
                    class="btn btn-primary" 
                    target="_blank" 
                    rel="noopener noreferrer">
@@ -122,7 +122,7 @@ function postProcessReadmeContent(container) {
     anchorLinks.forEach(link => {
         const anchor = link.getAttribute('href');
         // Convert local anchor links to GitHub repository links
-        const githubUrl = `https://github.com/xpaysh/awesome-x402?tab=readme-ov-file${anchor}`;
+        const githubUrl = `https://github.com/JasonColapietro/awesome-x402?tab=readme-ov-file${anchor}`;
         link.setAttribute('href', githubUrl);
         link.setAttribute('target', '_blank');
         link.setAttribute('rel', 'noopener noreferrer');
@@ -278,7 +278,7 @@ function initButtonHandlers() {
             
             // Delay then redirect
             await delay(300);
-            window.open('https://github.com/xpaysh/awesome-x402', '_blank', 'noopener,noreferrer');
+            window.open('https://github.com/JasonColapietro/awesome-x402', '_blank', 'noopener,noreferrer');
         });
     }
     
@@ -304,7 +304,7 @@ function initButtonHandlers() {
             
             // Delay then redirect
             await delay(300);
-            window.open('https://github.com/xpaysh/awesome-x402/blob/main/CONTRIBUTING.md', '_blank', 'noopener,noreferrer');
+            window.open('https://github.com/JasonColapietro/awesome-x402/blob/main/CONTRIBUTING.md', '_blank', 'noopener,noreferrer');
         });
     }
     
@@ -330,7 +330,7 @@ function initButtonHandlers() {
             
             // Delay then redirect
             await delay(300);
-            window.open('https://github.com/xpaysh/awesome-x402', '_blank', 'noopener,noreferrer');
+            window.open('https://github.com/JasonColapietro/awesome-x402', '_blank', 'noopener,noreferrer');
         });
     }
 }
