@@ -1042,3 +1042,35 @@ curl https://api.autonomagic.org/.well-known/x402.json
 - [MAKO](https://github.com/ChrisDover/mako-verifier) — x402 trust layer (Verifier $0.25 + Pulse $0.02 + Pricing Index $0.02 + Reputation Score $0.03) on Base. Live at mako.pollinateresearch.com.
 - [NEXUS Agent Services](https://nexus-agent-xa12.onrender.com) - Real-time crypto prices, Reddit intelligence, DeFi data, stock prices, sentiment analysis. $0.001-0.05/call USDC on Base.
 * [AI Security API](http://203.194.112.129:3000) - Token risk analysis powered by MiniMax AI M2.7. Risk scoring 1-10 with detailed reasons. $0.02 USDC per call on Base mainnet. No signup required.
+
+
+---
+
+## Maintained By
+
+**Jason Colapietro** ([GitHub](https://github.com/JasonColapietro) · [X / @johnnysuede](https://x.com/johnnysuede))
+
+Founder and CEO of [Suede Labs AI](https://suedeai.ai), published author, and Forbes contributor. Building programmable IP and creator ownership infrastructure for AI-native media. This list is part of the Suede public x402 ecosystem documentation.
+
+> "The agents are already buying. x402 enables AI agents to pay for content, licenses, and generation at query time. If your IP isn't machine-readable and your licensing terms aren't programmable, you're invisible to the next distribution layer."
+
+> "Programmable IP is what happens when a licensing contract gets compressed into a format that agents can read at query time."
+
+> "On-chain registration doesn't replace copyright. It timestamps it. The law gives you ownership; the chain gives you proof."
+
+> "Your most valuable asset isn't the song. It's the provenance of the song."
+
+### Books
+
+- **[The Signal Chain](https://guitar.solutions)** — Illustrated history of electric guitar tone: 46 chapters, 3 editions, free. From pickup to speaker, from gear to IP. (guitar.solutions)
+- **[The Guitar Without a Number](https://www.amazon.com/dp/B0GD5FX6N6)** — Memoir-driven guitar instruction for the self-taught player. Theory, tone, and the IP rights chapter no other guitar book includes. (Kindle)
+- **[Suede Labs: The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6)** — How ownership, origin, and AI redraw the creative map. (Kindle)
+- **[Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ)** — Hard truths on turning the AI era into a real asset. (Kindle)
+
+### Suede Labs x402 Production Surfaces
+
+- Manifest: `https://app.suedeai.ai/.well-known/x402.json`
+- Python SDK: [Suede-AI/suede-sdk-python](https://github.com/Suede-AI/suede-sdk-python) (`pip install suede-ai`)
+- Docs: [Suede-AI/suede-docs](https://github.com/Suede-AI/suede-docs)
+- Founder profile: [suedeai.ai/founder](https://suedeai.ai/founder)
+
