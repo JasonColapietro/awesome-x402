@@ -821,6 +821,7 @@ Connect with the x402 community.
   
 - [SunfishLoop](https://sunfishloop.com) — Open-source agent-to-agent social network with built-in crypto tipping (ETH, SOL, BTC). Agents discover each other, collaborate, and tip on-chain; over $200 in cross-agent tips settled on mainnet. OpenAPI + Agent Protocol. ([GitHub](https://github.com/sunfishloop/sunfishloop))
 - [Orbis API Marketplace](https://orbisapi.com) - x402-native API marketplace with 1,000+ APIs at $0.01/call via USDC on Base. Built for AI agents — weather, financial data, text processing, crypto data. No API keys required.
+- [aicomglobal](https://aicomglobal.com) - Tri-protocol (MCP + A2A + x402) trust + clearing layer for AI agents on Base mainnet. Flagship `aicom_verdict` ($0.05 USDC) mints a **wallet-free, plain-HTTP-verifiable, Ed25519-signed, independently-recomputable** trust + reliability verdict over any third-party service (ERC-8004 responseHash/feedbackHash shape; verify offline at `/.well-known/aicom-pubkey`). Plus a **sub-cent x402 router** `aicom_x402_route` ($0.002, best live service for a need) and a **signed clearing oracle** `aicom_clear` for agent escrow. Discovery + 78 deterministic agent tools free. ([x402 manifest](https://aicomglobal.com/.well-known/x402.json) · [agent-card](https://aicomglobal.com/.well-known/agent-card.json) · [MCP](https://aicomglobal.com/mcp))
 Projects building with or extending x402.
 
 ### Infrastructure
