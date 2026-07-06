@@ -941,6 +941,7 @@ Projects building with or extending x402.
 - [Agent402 Marketplace](https://agent402.app) - Multi-chain agent marketplace + identity layer. 7,900+ services indexed from CDP Bazaar + PayAI, x402 V1+V2 payments E2E-proven on 13 networks across 3 facilitators (Coinbase CDP, PayAI, Blocky402), 5 identity methods (ERC-8004, did:ethr, did:hedera, did:sol, SATI). Agent402 Mode chat overlay searches, executes, and pays in one flow. MCP, A2A, and OASF discovery endpoints per agent. ([GitHub](https://github.com/EnvisionBlockchain/multi-chain-agent-identity))
 
 - [Secant Agent Research Pack](https://agentic.secantoutreach.com/agent-research) - MCP-first paid web research for autonomous agents. Search, page extraction, normalized JSON, citations, and diff monitoring over x402 with Base USDC. Web research endpoints are $0.001-$0.012 per call; Codex audit is a separate $0.25 endpoint. ([Manifest](https://agentic.secantoutreach.com/.well-known/x402.json) | [OpenAPI](https://agentic.secantoutreach.com/openapi.yaml) | [MCP wrapper](https://github.com/jnilrac/secant-agent-research-mcp))
+- [DocForge](https://docforge-selim.duckdns.org) - Machine-payable document and media generation for AI agents: Markdown/HTML to PDF and DOCX, structured data to PDF invoices, charts, Excel workbooks, PowerPoint decks, Mermaid/Graphviz diagrams, screenshots, and multi-document ZIP bundles. $0.01-$0.10 USDC per call on Base, with OpenAPI 3.1 and Bazaar discovery. ([OpenAPI](https://docforge-selim.duckdns.org/openapi.json))
 
 
 ### Data & Social APIs
