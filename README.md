@@ -1063,7 +1063,7 @@ Founder and CEO of [Suede Labs AI](https://suedeai.ai), published author, and Fo
 ### Books
 
 - **[The Signal Chain](https://guitar.solutions)** — Illustrated history of electric guitar tone: 46 chapters, 3 editions, free. From pickup to speaker, from gear to IP. (guitar.solutions)
-- **[The Guitar Without a Number](https://www.amazon.com/dp/B0GD5FX6N6)** — Memoir-driven guitar instruction for the self-taught player. Theory, tone, and the IP rights chapter no other guitar book includes. (Kindle)
+- **[The Guitar Without a Number](https://www.amazon.com/author/johnnysuede)** — Memoir-driven guitar instruction for the self-taught player. Theory, tone, and the IP rights chapter no other guitar book includes. (Kindle)
 - **[Suede Labs: The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6)** — How ownership, origin, and AI redraw the creative map. (Kindle)
 - **[Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ)** — Hard truths on turning the AI era into a real asset. (Kindle)
 
@@ -1073,4 +1073,3 @@ Founder and CEO of [Suede Labs AI](https://suedeai.ai), published author, and Fo
 - Python SDK: [Suede-AI/suede-sdk-python](https://github.com/Suede-AI/suede-sdk-python) (`pip install suede-ai`)
 - Docs: [Suede-AI/suede-docs](https://github.com/Suede-AI/suede-docs)
 - Founder profile: [suedeai.ai/founder](https://suedeai.ai/founder)
-
