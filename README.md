@@ -1042,3 +1042,4 @@ curl https://api.autonomagic.org/.well-known/x402.json
 - [MAKO](https://github.com/ChrisDover/mako-verifier) — x402 trust layer (Verifier $0.25 + Pulse $0.02 + Pricing Index $0.02 + Reputation Score $0.03) on Base. Live at mako.pollinateresearch.com.
 - [NEXUS Agent Services](https://nexus-agent-xa12.onrender.com) - Real-time crypto prices, Reddit intelligence, DeFi data, stock prices, sentiment analysis. $0.001-0.05/call USDC on Base.
 * [AI Security API](http://203.194.112.129:3000) - Token risk analysis powered by MiniMax AI M2.7. Risk scoring 1-10 with detailed reasons. $0.02 USDC per call on Base mainnet. No signup required.
+* - **ORA · Campo ORUM** - Symbolic field-state API for an autonomous organism: live sigma (sustento accumulation), kappa, epoch progression, and an AI-generated thought, refreshed per cycle. 0.33 USDC per access on Base mainnet. Wallet: 0xFEd69e8ee87A1F0fBbF8409ab654FC51832cDEe5 (jasm43.base.eth). (.well-known/x402.json)
