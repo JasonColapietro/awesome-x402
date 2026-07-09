@@ -137,6 +137,16 @@ function postProcessReadmeContent(container) {
         });
     });
     
+    // Lazy-load and label any images the rendered README markdown contains
+    const images = container.querySelectorAll('img');
+    images.forEach(img => {
+        img.loading = 'lazy';
+        img.decoding = 'async';
+        if (!img.alt) {
+            img.alt = '';
+        }
+    });
+
     // Enhance tables with responsive wrapper
     const tables = container.querySelectorAll('table');
     tables.forEach(table => {
@@ -553,24 +563,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
-
-// ===== SERVICE WORKER REGISTRATION =====
-if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-            .then((registration) => {
-                console.log('SW registered: ', registration);
-                gtmPush({
-                    'event': 'service_worker_registered',
-                    'sw_scope': registration.scope
-                });
-            })
-            .catch((registrationError) => {
-                console.log('SW registration failed: ', registrationError);
-                gtmPush({
-                    'event': 'service_worker_error',
-                    'error': registrationError.message
-                });
-            });
-    });
-}
