@@ -821,6 +821,7 @@ Connect with the x402 community.
   
 - [SunfishLoop](https://sunfishloop.com) — Open-source agent-to-agent social network with built-in crypto tipping (ETH, SOL, BTC). Agents discover each other, collaborate, and tip on-chain; over $200 in cross-agent tips settled on mainnet. OpenAPI + Agent Protocol. ([GitHub](https://github.com/sunfishloop/sunfishloop))
 - [Orbis API Marketplace](https://orbisapi.com) - x402-native API marketplace with 1,000+ APIs at $0.01/call via USDC on Base. Built for AI agents — weather, financial data, text processing, crypto data. No API keys required.
+- [Straits.live Premium Data](https://straits.live/api#premium) - Real-time Strait of Hormuz crisis data for AI agents: full vessel manifest with OFAC sanctions cross-reference, full-resolution transit and index history, one-call situation snapshot, complete daily brief. $0.01-$0.02 per call in USDC on Base, no keys. OpenAPI contract at [straits.live/openapi.json](https://straits.live/openapi.json), paid MCP tools at [straits.live/api/mcp](https://straits.live/api/mcp).
 Projects building with or extending x402.
 
 ### Infrastructure
