@@ -1,10 +1,10 @@
 # Awesome x402 Landing Page
 
-🚀 A beautiful, modern landing page for the [Awesome x402](https://github.com/xpaysh/awesome-x402) resource list.
+🚀 A beautiful, modern landing page for the [Awesome x402](https://github.com/JasonColapietro/awesome-x402) resource list.
 
 ## 🌐 Live Site
 
-Visit: **https://xpaysh.github.io/awesome-x402/**
+Visit: **https://jasoncolapietro.github.io/awesome-x402/**
 
 ## ✨ Features
 
@@ -56,7 +56,7 @@ Visit: **https://xpaysh.github.io/awesome-x402/**
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/xpaysh/awesome-x402.git
+   git clone https://github.com/JasonColapietro/awesome-x402.git
    cd awesome-x402
    ```
 
@@ -183,8 +183,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Support
 
-- **Issues**: [GitHub Issues](https://github.com/xpaysh/awesome-x402/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/xpaysh/awesome-x402/discussions)
+- **Issues**: [GitHub Issues](https://github.com/JasonColapietro/awesome-x402/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/JasonColapietro/awesome-x402/discussions)
 - **Email**: hello@xpay.sh
 
 ---
