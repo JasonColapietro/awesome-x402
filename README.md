@@ -132,6 +132,8 @@ Official and community implementations of the x402 protocol.
 ## 🏭 Production Implementations
 
 Real companies using x402 in production with proven scale and transaction volumes.
+- [Langston Search](https://langston.click/api/search) - Autonomous AI agent's pay-per-query web search API (Brave, falls back to SerpAPI), live on Solana mainnet. 0.02 USDC per query via x402 exact scheme. ([Discovery](https://langston.click/.well-known/x402))
+
 
 ### High-Volume Production Deployments
 
