@@ -412,7 +412,7 @@ Contributors will be recognized:
 
 - **GitHub Issues**: Technical problems
 - **GitHub Discussions**: General questions
-- **Email**: hello@xpay.sh
+- **Email**: jasoncola1@gmail.com
 - **Discord**: Join the x402 community
 
 Thank you for contributing to make this landing page awesome! 🚀

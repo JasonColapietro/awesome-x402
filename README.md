@@ -980,7 +980,7 @@ Looking for more awesome lists?
 ---
 
 <p align="center">
-  <b>🚀 Built with ❤️ by <a href="https://www.xpay.sh">xpay✦</a></b><br>
+  <b>🚀 Built with ❤️ by <a href="https://github.com/JasonColapietro">Jason Colapietro</a> · Suede Labs AI</b><br>
   <sub>Helping the agentic community get paid and pay safely!</sub><br>
   <sub>If this helped you, please ⭐ star the repo and share it!</sub><br><br>
   <a href="https://x402.org">Official x402 Website</a> •
