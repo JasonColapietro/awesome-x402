@@ -11,30 +11,30 @@
     <meta name="creator" content="Jason Colapietro">
     <meta name="publisher" content="Suede Labs AI">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    <meta name="theme-color" content="#2563eb">
 
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://www.x402.org/">
+    <link rel="canonical" href="https://jasoncolapietro.github.io/awesome-x402/">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.x402.org/">
+    <meta property="og:url" content="https://jasoncolapietro.github.io/awesome-x402/">
     <meta property="og:title" content="Awesome x402 — HTTP 402 & Agentic Payments Resources">
     <meta property="og:description" content="The definitive curated list of HTTP 402 (x402) protocol resources, SDKs, tools, and example apps for building AI agent payments and decentralized micropayments.">
     <meta property="og:site_name" content="awesome-x402">
     <meta property="og:locale" content="en_US">
-    <meta property="og:image" content="https://www.x402.org/og-image.png">
+    <meta property="og:image" content="https://jasoncolapietro.github.io/awesome-x402/og-image.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="awesome-x402 — The curated HTTP 402 agentic payments resource list">
+    <meta property="og:image:alt" content="Awesome HTTP 402 — curated list of x402 protocol resources, SDKs, and tools for AI agent payments and micropayments">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@x402org">
     <meta name="twitter:creator" content="@suedeai">
     <meta name="twitter:title" content="Awesome x402 — HTTP 402 & Agentic Payments Resources">
     <meta name="twitter:description" content="The definitive curated list of HTTP 402 (x402) resources, SDKs, and tools for AI agent payments and decentralized micropayments.">
-    <meta name="twitter:image" content="https://www.x402.org/og-image.png">
-    <meta name="twitter:image:alt" content="awesome-x402 — The curated HTTP 402 agentic payments resource list">
+    <meta name="twitter:image" content="https://jasoncolapietro.github.io/awesome-x402/og-image.png">
+    <meta name="twitter:image:alt" content="Awesome HTTP 402 — curated list of x402 protocol resources, SDKs, and tools for AI agent payments and micropayments">
 
     <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
@@ -46,7 +46,7 @@
       "@type": "WebSite",
       "name": "awesome-x402",
       "alternateName": "Awesome HTTP 402",
-      "url": "https://www.x402.org/",
+      "url": "https://jasoncolapietro.github.io/awesome-x402/",
       "description": "The definitive curated list of HTTP 402 (x402) protocol resources, SDKs, tools, and example apps for building AI agent payments and decentralized micropayments.",
       "inLanguage": "en-US",
       "publisher": {
@@ -60,17 +60,8 @@
         "url": "https://github.com/JasonColapietro"
       },
       "sameAs": [
-        "https://github.com/JasonColapietro/awesome-x402",
-        "https://twitter.com/x402org"
-      ],
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://www.x402.org/?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
+        "https://github.com/JasonColapietro/awesome-x402"
+      ]
     }
     </script>
     
@@ -87,11 +78,12 @@
     <!-- Google Tag Manager Placeholder -->
     <!-- GTM_HEAD_PLACEHOLDER -->
     
-    <!-- External Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- External Libraries (deferred: non-critical to first paint, executed in order before DOMContentLoaded) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js" defer></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-core.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/autoloader/prism-autoloader.min.js" defer></script>
     
     <!-- Custom Styles -->
     <link rel="stylesheet" href="style.css">
@@ -276,6 +268,6 @@ app.use('/api/premium',
     </footer>
 
     <!-- Scripts -->
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </body>
 </html>

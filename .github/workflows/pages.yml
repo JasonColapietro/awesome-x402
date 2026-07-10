@@ -66,11 +66,11 @@ jobs:
           
       - name: Generate sitemap.xml
         run: |
-          cat > docs/sitemap.xml << 'EOF'
+          cat > docs/sitemap.xml << EOF
           <?xml version="1.0" encoding="UTF-8"?>
           <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
             <url>
-              <loc>https://xpaysh.github.io/awesome-x402/</loc>
+              <loc>https://jasoncolapietro.github.io/awesome-x402/</loc>
               <lastmod>$(date -u +%Y-%m-%d)</lastmod>
               <changefreq>weekly</changefreq>
               <priority>1.0</priority>
@@ -84,7 +84,7 @@ jobs:
           User-agent: *
           Allow: /
           
-          Sitemap: https://xpaysh.github.io/awesome-x402/sitemap.xml
+          Sitemap: https://jasoncolapietro.github.io/awesome-x402/sitemap.xml
           EOF
           
       - name: Generate .htaccess for caching
@@ -177,7 +177,7 @@ jobs:
           
       - name: Create deployment summary
         run: |
-          cat >> $GITHUB_STEP_SUMMARY << 'EOF'
+          cat >> $GITHUB_STEP_SUMMARY << EOF
           # 🚀 Awesome x402 Page Deployment
           
           ## Deployment Status
