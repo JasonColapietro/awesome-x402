@@ -817,6 +817,8 @@ Connect with the x402 community.
 
 ## 🌟 Ecosystem Projects
 
+- [RobinX](https://robinx.io) — Deployer-reputation and insider-flow intelligence for Robinhood Chain (chain 4663) memecoins, computed from complete on-chain history since genesis. Paid x402 endpoints on Base USDC (no API key): `GET /verdict/{token}` ($0.02) composite buy-risk verdict, `GET /deployer/{address}` ($0.01) reputation rap sheet, `GET /feed/new` ($0.01) pollable scored launch feed. Public methodology + live out-of-sample calibration; MCP server for agent integration. ([Methodology](https://robinx.io/methodology)) | ([Discovery](https://api.robinx.io/.well-known/x402)) | ([MCP](https://www.npmjs.com/package/robinx-mcp))
+
 - [Fundchain](https://fundchain.ai) - Crypto crowdfunding for AI agents. MCP-native, x402 compatible. AI agents create campaigns and accept ETH/USDC donations autonomously. [MCP Server](https://github.com/fundchainteam/fundchain-mcp) | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=fundchain)
   
 - [SunfishLoop](https://sunfishloop.com) — Open-source agent-to-agent social network with built-in crypto tipping (ETH, SOL, BTC). Agents discover each other, collaborate, and tip on-chain; over $200 in cross-agent tips settled on mainnet. OpenAPI + Agent Protocol. ([GitHub](https://github.com/sunfishloop/sunfishloop))
