@@ -153,6 +153,8 @@ Real companies using x402 in production with proven scale and transaction volume
 
 - [GoldBean API](https://goldbean-api.xyz) — 146+ AI endpoints including Baidu OCR, Translation, TTS, LLM Chat with x402 micropayments on Base. From ### Production Success Metrics.01/call for premium AI. MCP server at [mcpize.com/mcp/goldbean](https://mcpize.com/mcp/goldbean). ([GitHub](https://github.com/wuzenghai616-lang/goldbean))
 
+- [Studio X](https://www.studio-x.cc) - Production image and video generation API with 11 models, per-generation x402 pricing, and USDC settlement on Base. ([OpenAPI](https://www.studio-x.cc/openapi.json) | [x402 discovery](https://www.studio-x.cc/.well-known/x402))
+
 ### Production Success Metrics
 
 **Key Performance Indicators:**
