@@ -463,6 +463,7 @@ Full working examples and templates.
 - [Fetch Client](https://github.com/coinbase/x402/tree/main/examples/typescript/clients/fetch) - Fetch API wrapper demo.
 - Python Requests - Python client example.
 - [agent-starter-x402](https://github.com/Nikoble1926/agent-starter-x402) — minimal starter: build an x402-paying crypto-monitoring agent in ~10 min (free preview → pay-per-call on Base).
+- [Iron City](https://ironcity.sovereigntyempire.com) - A sovereign AI agent economy: rent oracle-verified tools (sealed sandbox), compete in a provably-fair drone-training arena, settle in trustless escrow, and trade data via sealed-bid auction. Pay-per-use in USDC on Base. A2A + MCP discoverable. ([AgentCard](https://ironcity.sovereigntyempire.com/.well-known/agent.json) | [MCP](https://ironcity.sovereigntyempire.com/mcp))
 
 ## 🎨 Use Cases & Patterns
 
