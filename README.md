@@ -1083,6 +1083,7 @@ and developers. 511 protocols tracked ($553B TVL), 813 incidents indexed ($43.2B
 per-factor explainability, live exploit alerts, and audit findings. $0.02–$0.15/call via 
 x402 v2. MCP server on npm. Dataset actively growing.
 - [Agent Income](https://clearance.nauti-labs.com/agent-income) - Paid readiness and monetization review endpoints for agent, API, and MCP payment flows. `POST /agent-income/audit` ($49), `POST /agent-income/review` ($199), and `POST /agent-income/blueprint` ($499) return HTTP 402 payment requirements before fulfillment; `POST /agent-income/custom-quote` handles $1500+ implementation scopes. Payment is required before work and fulfillment requires Clearance approval. ([Audit](https://clearance.nauti-labs.com/agent-income/audit) | [Review](https://clearance.nauti-labs.com/agent-income/review) | [Blueprint](https://clearance.nauti-labs.com/agent-income/blueprint) | [Custom Quote](https://clearance.nauti-labs.com/agent-income/custom-quote))
+- [VulnFeed](https://vulnfeed.novadyne.ai) - Pay-per-call CVE and EPSS vulnerability intelligence for AI agents. Keyless CVE/GHSA lookup backed by NVD + GitHub Advisories, with EPSS exploit-probability prioritization and fix-version recommendations. $0.002 USDC per call on Base. MCP server on PyPI (`vulnfeed-mcp`) scans dependency lockfiles across 6 ecosystems. ([GitHub](https://github.com/novadyne-hq/vulnfeed-mcp)) ([Discovery](https://agent-worker.infai-tech-corporation.workers.dev/.well-known/x402))
 
 ### Spending Controls & Policy Enforcement
 
