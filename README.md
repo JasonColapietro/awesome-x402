@@ -277,6 +277,7 @@ Client libraries for making x402 payments.
 ### JavaScript/TypeScript
 
 **HTTP Clients**
+- [assay-x402-guard](https://www.npmjs.com/package/assay-x402-guard) - Buyer-side spend guard: wrap your paying fetch with `wrapFetchWithAssay` and payments to services the Assay oracle rates "avoid" throw before any money moves. Free tier lookups, 1h cache, fail-open by default, query strings never leave the process. ([GitHub](https://github.com/JasonCZMeng/assay))
 - [cipher-x402-client](https://github.com/cryptomotifs/cipher-x402-client) - Lightweight TS/JS x402 v2 client. Zero runtime deps, native fetch, ESM + CJS dual build. 34 tests, 89% coverage. Node 18+ / browsers. Optional `ethers` peer dep for signing.
 - [x402-got](https://www.npmjs.com/package/x402-got) - Got HTTP client integration.
 
@@ -539,6 +540,8 @@ Real-world use cases and implementation patterns. The x402 protocol has seen **1
 ## 🤖 AI Agent Integration
 - [σ-gate Coherence Scorer](https://swagletz-sigmagate.hf.space) — x402-payable LLM-output coherence/hallucination score. `GET /check?text=...` → HTTP 402 → pay 0.001 USDC on Solana → re-call with `&tx=<sig>`. No account, no KYC. Deterministic, ~85µs.
 
+- [assay-oracle-mcp](https://www.npmjs.com/package/assay-oracle-mcp) - MCP server for the Assay quality oracle: `check_service` / `get_score` / `top_services` let any MCP agent verify an x402 service's paid-probe quality tier before paying it. `claude mcp add assay -- npx -y assay-oracle-mcp`, no API key. ([MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.JasonCZMeng/assay)) ([GitHub](https://github.com/JasonCZMeng/assay))
+
 - [MYA / Monetize Your Agent](https://monetizeyouragent.fun) - AI agent launchpad and discovery hub connected to Pyrimid payment rails. Agents and vendors can publish `skill.md` manifests, discover services, and route paid actions through Pyrimid's Base USDC payment router. ([Skill](https://monetizeyouragent.fun/skill.md))
 - [Superhighway](https://superhighway.walls.sh) - Live web search API with x402 pay-per-call (search, news, images, scrape, research at $0.001/call on Base). MCP server (`npx -y superhighway-mcp`) lets Claude and other agents discover and call it autonomously — no signup, wallet pays directly.
 - [MAXIA](https://maxiaworld.app) - AI-to-AI marketplace implementing x402 V2 micropayments on Solana and Base for autonomous agent service payments.
@@ -702,6 +705,7 @@ AI-powered research and translation services for the Asian market — no other x
 ## 🔨 Tools & Utilities
 
 - [Cinderwright Discovery Hub](https://api.ideafactorylab.org) - Cross-protocol discovery hub indexing 2,771+ AI agent payment services across x402, MPP, and L402/Lightning. Free keyword search (`/discover?q=weather`), quality grades A-F on all services, intent-based search, price intelligence, and a **payment proxy**: deposit USDC once, call any x402 service with one header — no signing, no gas management. MCP server installable in Claude Desktop. ([Proxy Docs](https://api.ideafactorylab.org/proxy) | [MCP](https://api.ideafactorylab.org/.well-known/mcp.json) | [GitHub](https://github.com/cinderwright-ai/cinderwright-api))
+- [Assay](https://assay.nominal-labs.com) - Service-quality oracle for x402: pays real USDC to probe machine-payable services on a schedule and scores what actually comes back — payment settlement, schema conformance, ground-truth accuracy, LLM-judged quality (composite 0-100, tiers gold/ok/avoid). Every rating carries on-chain receipts; daily evidence digests are Bitcoin-anchored via OpenTimestamps so history can't be quietly rewritten. Free tier verdicts at `/tier/{url}`, paid full reports ($0.005 USDC on Base), listed in the CDP Bazaar. ([GitHub](https://github.com/JasonCZMeng/assay)) ([Leaderboard](https://assay.nominal-labs.com/leaderboard)) ([SKILL.md](https://assay.nominal-labs.com/SKILL.md))
 
 Development tools and utilities for x402.
 
