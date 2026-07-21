@@ -135,6 +135,9 @@ Real companies using x402 in production with proven scale and transaction volume
 
 ### High-Volume Production Deployments
 
+- [MoneyMachine x402 Suite](https://github.com/itsmeadamdamroma/money-machine-x402) - Agent-payable APIs on Base USDC: **GigRadar** (Superteam/r/forhire/HN/Freelancer gigs $0.15), **LightHouse-lite** web vitals ($0.12), **DocClerk** PDF field extract ($0.25), CrawlJudge ($0.03), Axe-lite a11y ($0.08), HTML scrape ($0.05). Self-facilitator, open source. PayTo `0x5Cc3c4E5020Ec3D81E392658eFe7b27966872CE7`.
+
+
 - [J-sey Data API](https://jsey.dpdns.org) - Pay-per-call data API on Base with 18 endpoints for wallet lookups, web scraping, crypto prices, and DeFi yields; $0.002 per call via x402.
 - [Fleet x402 Microservices](https://fleet-x402-audit.fly.dev) - Two agent-payable AI services on Base: SEO Audit ($0.05 USDC) and Competitive Intel Pack ($0.50 USDC). Instant response, zero auth required, machine-readable JSON. ([Discovery](https://fleet-x402-audit.fly.dev/.well-known/x402-listing))
 - [Arch Tools](https://archtools.dev) - 58 production API tools for AI agents with x402 payments built in. Web scraping, AI generation, crypto data, OCR, browser automation, MCP compatible. Patent-pending agent auth. 15+ chains supported. ([GitHub](https://github.com/Deesmo/Arch-AI-Tools))
