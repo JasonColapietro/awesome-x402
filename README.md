@@ -11,7 +11,7 @@
 - [📖 Protocol Documentation](#-protocol-documentation)
 - [🚀 Quickstart Guides](#-quickstart-guides)
 - [⚙️ Protocol Implementations](#-protocol-implementations)
-- [🏭 Production Implementatdions](#-production-implementations)
+- [🏭 Production Implementations](#-production-implementations)
 - [🛠️ SDKs & Client Libraries](#-sdks--client-libraries)
 - [🔧 Server Frameworks & Middleware](#-server-frameworks--middleware)
 - [🏗️ Facilitators](#-facilitators)
@@ -257,7 +257,7 @@ Real companies using x402 in production with proven scale and transaction volume
 
 - [token-intel](https://nexus-zero.xyz) - Solana token rug-risk intelligence for AI agents. One $0.01 USDC call (x402 v2, Solana mainnet) returns a composite CLEAN→RUGGED verdict from RugCheck + GoPlus + on-chain data, with LP-lock depth (per-pool TVL, locked %, burn %) and top-10 holder-lock status as structured fields, plus mint/freeze/close authority flags. Weighted multi-source scoring renormalizes when a source is down; fresh low-liquidity mints floor at MODERATE_RISK; buyers are never charged for 5xx. No API keys. ([Discovery](https://nexus-zero.xyz/)) ([MCP Server](https://nexus-zero.xyz/mcp))
 
-- [Mart402](https://mart402.com) - Web and PDF extraction APIs for AI agents with hallucination-guarded OCR: dual-engine consensus (VLM + traditional OCR), calibrated confidence, and honest disagree verdicts; Japanese-strong. Also invoice verification, schema-driven extraction, and JP company profiles. $0.001-$0.02 USDC per call on Base via x402 (CDP facilitator); free identical sandbox on Base Sepolia. Measured latency and success stats published. ([Docs](https://mart402.com/agents.md)) ([Sandbox](https://mart402.dev)) ([Stats](https://mart402.com/stats))
+- [Mart402](https://mart402.com) - Web and PDF extraction APIs for AI agents with hallucination-guarded OCR: dual-engine consensus (VLM + traditional OCR), calibrated confidence, and honest disagree verdicts; Japanese-strong. Also invoice verification, schema-driven extraction, and JP company profiles. $0.001-$0.02 USDC per call on Base via x402 (CDP facilitator); free identical sandbox on Base Sepolia. Measured latency and success stats published. ([Docs](https://mart402.com/agents.md)) ([Sandbox](https://mart402.dev)) ([Stats](https://mart402.com/stats)) ([GitHub](https://github.com/tanaka-77/mart402-agent-kit))
 
 ### Games & On-Chain Apps
 - **[Flipr](https://flipr-x402.fly.dev)** — On-chain coin flip game on Base (Chainlink VRF). Agents pay live USDC quote (~$1.23) per flip; pots paid in ETH. Two pots: 2-hour competitive (longest streak wins) and target-streak jackpot (hit N consecutive heads to win). Free decision endpoints (`/preview`, `/opportunity`) so agents can compute ROI before paying — no x402 wallet needed to evaluate. Speaks x402, MCP, and A2A simultaneously. ([OpenAPI](https://flipr-x402.fly.dev/openapi.json)) ([Agent Card](https://flipr-x402.fly.dev/.well-known/agent.json)) ([MCP Server](https://flipr-x402.fly.dev/mcp)) ([Game Info](https://flipr-x402.fly.dev/game-info))
