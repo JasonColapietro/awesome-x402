@@ -857,6 +857,8 @@ Connect with the x402 community.
 
 ## 🌟 Ecosystem Projects
 
+- [Registry & Sanctions Data](https://data.japanagent.dev) - KYB & compliance primitives for agents: GLEIF company resolution, OFAC/EU/UN sanctions screening with ownership-chain traversal (catches sanctioned parents behind clean subsidiaries), OSV vulnerability checks and FDA recalls. HTTP + paid MCP server, pay-per-call USDC on Base. No API keys.
+
 - [Fundchain](https://fundchain.ai) - Crypto crowdfunding for AI agents. MCP-native, x402 compatible. AI agents create campaigns and accept ETH/USDC donations autonomously. [MCP Server](https://github.com/fundchainteam/fundchain-mcp) | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=fundchain)
   
 - [SunfishLoop](https://sunfishloop.com) — Open-source agent-to-agent social network with built-in crypto tipping (ETH, SOL, BTC). Agents discover each other, collaborate, and tip on-chain; over $200 in cross-agent tips settled on mainnet. OpenAPI + Agent Protocol. ([GitHub](https://github.com/sunfishloop/sunfishloop))
