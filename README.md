@@ -772,6 +772,7 @@ Development tools and utilities for x402.
 - [SwarmX (swarms-x402)](https://github.com/SolTwizzy/swarms-x402) - Multi-agent AI orchestration with x402 micropayments. 49 endpoints, 39 MCP tools, knowledge/RAG. ([npm](https://www.npmjs.com/package/swarms-x402)) ([Live](https://swarmx.io))
 - [x402 List](https://x402-list.com) - Agent-first directory of x402 API services with live uptime monitoring and machine-readable discovery for AI agents (JSON API, OpenAPI 3.1, llms.txt). Per-service endpoints, pricing, response time, and uptime charts. ([API](https://x402-list.com/api/v1/services)) ([OpenAPI](https://x402-list.com/api/v1/openapi.json)) ([llms.txt](https://x402-list.com/llms.txt))
 - [SmartFlow Mapper API](https://api.smartflowproai.com) - JSON REST API exposing 22,251+ catalogued x402 endpoints with uptime, payment-success, and facilitator metadata. Free tier (100 req/day) + paid bulk export. ([Live stats](https://api.smartflowproai.com/v1/stats))
+- [_done](https://underscoredone.com) - Suite of x402 micropayment-gated utility APIs for AI agents (Web lookups, site analysis, data and more). Pay-per-call, no API keys or subscriptions — agents discover and pay per request via x402. Base + Solana mainnet payment support. 
 
 ### Security & Analysis
 
