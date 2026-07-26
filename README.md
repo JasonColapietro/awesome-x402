@@ -573,6 +573,8 @@ Enable AI agents to make autonomous payments.
 
 - [cheetahsecurity Agent Firewall](https://x402.cheetahsecurity.de) - Prompt-injection / jailbreak firewall for agents: POST untrusted inbound text (a post/comment/DM, tool output, web content) to `/scan` and get `safe`/`blocked` back before your agent acts on it. Self-hosted detection (LLM Guard / DeBERTa, MIT), no third-party data sharing. $0.01 USDC per scan on Base. ([/.well-known/x402](https://x402.cheetahsecurity.de/.well-known/x402.json)) ([OpenAPI](https://x402.cheetahsecurity.de/openapi.json))
 
+- [x402 Reputation Index](https://x402rep.invoitech.com) - Endpoint-side reputation: independent verified-delivery verdicts for the full x402 catalog (~10k Base+USDC endpoints). Probes every 402 handshake, attributes settlements via facilitator-sender filtering with payTo-collision detection, flags wash/honeypots (pay-then-401), and pay-tests endpoints with real USDC — the top verdict tier requires confirmed delivery. Free rate-limited HTTP API + remote MCP: `claude mcp add --transport http x402-reputation https://x402rep.invoitech.com/mcp`. Live stats at [/api/v1/status](https://x402rep.invoitech.com/api/v1/status).
+
 ### GPU Inference APIs
 
 x402-native GPU inference APIs that let agents pay autonomously for compute.
