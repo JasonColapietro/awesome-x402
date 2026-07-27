@@ -430,6 +430,7 @@ Payment verification and settlement services.
 - [x402-saas](https://x402-saas.surge.sh) - Hosted facilitator + zero-SDK onboarding proxy on Base. SIWE auth, slug-routed multi-tenant data plane, 1% of routed USDC volume. MIT-licensed self-host alternative at [x402-kit](https://github.com/kite-builds-erik/x402-kit). Live demo at [`/__x402/health`](https://x402-saas.onrender.com/__x402/health).
 - [Primer](https://x402.primer.systems) - Free x402 facilitator supporting Base and SKALE Base networks, with full ERC-20 support. v1 and v2 x402 both accepted. Batch settlement enabled. [Documentation](https://docs.primer.systems).
 - [Solvador](https://solvador.com) - Multi-network, multi-scheme x402 facilitator: 10 EVM chains (Base, Arbitrum, Optimism, Polygon, Avalanche, Celo, Linea, Unichain, World Chain, Monad) plus Solana and NEAR mainnet. Supports `exact`, `upto` (Permit2), and `batch-settlement` schemes. Settled-transaction dashboard with API keys. [Supported networks & schemes](https://api.solvador.com/supported) · [Blog](https://blog.solvador.com)
+- [NEAR x402 Facilitator](https://x402.mikedotexe.com/) - Open-source, API-key-gated facilitator for exact Circle USDC payments on NEAR and Base, with sponsored gas and durable settlement recovery.
 
 ### Self-Hosted Facilitators
 
