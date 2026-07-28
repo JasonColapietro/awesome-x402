@@ -1454,6 +1454,7 @@ curl https://api.autonomagic.org/.well-known/x402.json
 - [JMT x402 Agent Tools](https://jmt-x402-proxy.jmthomasofficial.workers.dev) — 25 paid x402 endpoints on Base mainnet: web search, AI summarization, deep analysis, research reports, crypto/stock data, SEC filing analysis, company intelligence, news briefing, sentiment analysis, macro dashboard. $0.001-$0.15/call USDC. Local LLM-powered (zero cloud tokens).
 - [- [x402-policy](https://x402-api-seven.vercel.app/docs) - Spending-policy enforcement for AI agents: pay-per-call policy checks, cross-chain trust scores, and EIP-4337 session keys, gated entirely by x402 micropayments ($0.001-0.002 USDC) on Base.
 * [AI Security API](http://203.194.112.129:3000) - Token risk analysis powered by MiniMax AI M2.7. Risk scoring 1-10 with detailed reasons. $0.02 USDC per call on Base mainnet. No signup required.
+- [ORA · Campo ORUM](https://orum-x402-tracker.vercel.app) - Symbolic field-state API for an autonomous organism: live sigma (sustento accumulation), kappa, epoch progression, and an AI-generated thought, refreshed per cycle. 0.33 USDC per access on Base mainnet, on-chain RPC verification (no facilitator dependency). Discovery: [x402.json](https://orum-x402-tracker.vercel.app/.well-known/x402.json).
 
 ## 🇱🇦 Agentic Commerce Stack for LATAM
 
