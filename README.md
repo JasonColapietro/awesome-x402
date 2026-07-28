@@ -358,6 +358,7 @@ Client libraries for making x402 payments.
 - [Agent Wallet SDK](https://www.npmjs.com/package/agentwallet-sdk) - Non-custodial smart contract wallets for AI agents with on-chain spend limits and operator model. Base L2. ([npm](https://www.npmjs.com/package/agentwallet-sdk))
 - [viem](https://viem.sh/) - TypeScript library used for signing payments.
 - [ethers.js](https://docs.ethers.org/) - Alternative Ethereum library.
+- [AgentLayer](https://github.com/lopushok9/Agent-Layer) - Open-source, local-first wallet for AI agents, with x402 payments and DeFi tools for Base, Solana, and Ethereum, including swaps, lending, and borrowing. Keys are stored in the macOS Keychain.
 
 ### Rust
 
