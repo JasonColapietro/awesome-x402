@@ -173,6 +173,8 @@ Real companies using x402 in production with proven scale and transaction volume
 - [Utilia Solana Preflight](https://utilia.ink) - Deterministic Solana transaction simulation, confirmed-transaction diagnostics, priority-fee, and SPL token-risk APIs plus bounded PDF and audio transforms, payable in USDC through x402 v2 at $0.002-$0.01 per call. No signup or API key; hosted MCP settles on Solana and explicit HTTP aliases support Base. Includes OpenAPI, x402 discovery, and an on-chain Solana agent identity. ([Discovery](https://api.utilia.ink/.well-known/x402) | [MCP](https://api.utilia.ink/mcp) | [OpenAPI](https://api.utilia.ink/openapi.json) | [On-chain identity](https://8004market.io/agent/solana/mainnet-beta/1462))
 - [SuVerse Pay](https://suverse-pay.suverse.io) - Payment gateway + API catalog with ~490 paid endpoints on one origin: crypto market data, Polymarket smart-money verdicts, token-safety forensics (Base + Solana), macro/gov datasets, and an x402 endpoint liveness probe. $0.05–$0.75 USDC per call, multi-chain settlement (Base + Solana + Cosmos Noble) via a self-hosted facilitator, no API keys or signup. ([OpenAPI](https://proxy.suverse.io/openapi.json) | [Catalog](https://suverse-pay.suverse.io/catalog) | [MCP](https://www.npmjs.com/package/@suverselabs/mcp-server) | [Buyer SDK](https://www.npmjs.com/package/@suverselabs/x402-client))
 
+- [Studio X](https://www.studio-x.cc) - Production image and video generation API with 11 models, per-generation x402 pricing, and USDC settlement on Base. ([OpenAPI](https://www.studio-x.cc/openapi.json) | [x402 discovery](https://www.studio-x.cc/.well-known/x402))
+
 ### Production Success Metrics
 
 **Key Performance Indicators:**
