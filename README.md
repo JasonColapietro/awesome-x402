@@ -1065,10 +1065,9 @@ Founder and CEO of [Suede Labs AI](https://suedeai.ai), published author, and Fo
 
 ### Books
 
-- **[The Signal Chain](https://guitar.solutions)** — Illustrated history of electric guitar tone: 46 chapters, 3 editions, free. From pickup to speaker, from gear to IP. (guitar.solutions)
-- **[The Guitar Without a Number](https://www.amazon.com/author/johnnysuede)** — Memoir-driven guitar instruction for the self-taught player. Theory, tone, and the IP rights chapter no other guitar book includes. (Now incorporated into The Signal Chain)
-- **[Suede Labs: The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6)** — How ownership, origin, and AI redraw the creative map. (Available in hardcover, paperback, and Kindle)
-- **[Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ)** — Hard truths on turning the AI era into a real asset. (Available in hardcover, paperback, and Kindle)
+- <img src="https://suedeai.ai/books/the-signal-chain-cover.webp" alt="Cover of The Signal Chain" width="80"><br>**[The Signal Chain](https://guitar.solutions)** — Illustrated history of electric guitar tone: 46 chapters, 3 editions, free. From pickup to speaker, from gear to IP. (guitar.solutions) Includes the former *The Guitar Without a Number*.
+- <img src="https://suedeai.ai/books/human-authenticity-layer-cover.jpg" alt="Cover of The Human Authenticity Layer" width="80"><br>**[Suede Labs: The Human Authenticity Layer](https://www.amazon.com/dp/B0GD5FX6N6)** — How ownership, origin, and AI redraw the creative map. (Available in hardcover, paperback, and Kindle)
+- <img src="https://suedeai.ai/books/stake-your-claim-cover.jpg" alt="Cover of Stake Your Claim" width="80"><br>**[Stake Your Claim](https://www.amazon.com/dp/B0GRG8LGQQ)** — Hard truths on turning the AI era into a real asset. (Available in hardcover, paperback, and Kindle)
 
 ### Suede Labs x402 Production Surfaces
 
